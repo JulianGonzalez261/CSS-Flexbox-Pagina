@@ -23,6 +23,12 @@ header{
     max-width: 1180px;
     justify-content: center;
 }
+.flex-container {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+  }
 .menu{
     display: flex;
     flex-direction: row-reverse;
