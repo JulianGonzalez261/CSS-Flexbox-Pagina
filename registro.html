@@ -10,9 +10,9 @@
 <body>
   <section class="form-register">
     <h4>Registrate Gratis</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="text" name="nombres" id="nombres" required pattern="[A-Za-z]{30}" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" required pattern="[A-Za-z]{30}"  placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" required title="Ingrese una cuenta de correo valida"  placeholder="Ingrese su Correo">
     <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
     
    <a href="listo.html"> <input class="botons" FCDtype="submit" value="Registrar"></a>
